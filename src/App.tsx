@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"; 
 import { initializeApp } from "firebase/app"; 
-import { getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc, doc } from "fir
+import { getFirestore, collection, onSnapshot, addDoc, updateDoc, deleteDoc, doc } from "firebase/firestore";
 const firebaseConfig = { 
  apiKey: "AIzaSyCazjyRAq4Y8aQZszhT4mT18CzfSl4Sdx0", 
  authDomain: "whole-sale-74a40.firebaseapp.com", 
